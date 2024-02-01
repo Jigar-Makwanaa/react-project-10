@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #20b7c1;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #e3304e;
+}
+
+.button {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.button a {
+  background-color: teal;
+  color: white;
+  padding: 12px;
+  font-size: 19px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: block;
+  width: 15%;
+  transition: all 0.5s;
+}
+.button a:hover {
+  background-color: rgb(3, 67, 67);
+}
+
+.card-section .allCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0px;
+}
+.card-section .allCards .card {
+  width: 25%;
+  padding: 12px;
+}
+.card-section .allCards .card .content {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 12px;
+}
+.card-section .allCards .card .content .image img {
+  width: 210px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.card-section .allCards .card .content .details {
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+.card-section .allCards .card .content .details h2 {
+  color: teal;
+  font-size: 18px;
+}
+.card-section .allCards .card .content .details h3 {
+  padding: 5px 0px;
+  color: red;
+}
+.card-section .allCards .card .content .details h4 {
+  padding: 5px 0px;
+  text-transform: capitalize;
+}
+.card-section .allCards .card .content .details span a {
+  background-color: #bd5567;
+  color: white;
+  display: block;
+  padding: 12px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.card-section .allCards .card .content .details span a:hover {
+  background-color: #e3304e;
+}/*# sourceMappingURL=style.css.map */
