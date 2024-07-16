@@ -73,11 +73,11 @@ h1 {
   font-size: 18px;
 }
 .card-section .allCards .card .content .details h3 {
-  padding: 5px 0px;
+  padding: 10px 0px;
   color: red;
 }
 .card-section .allCards .card .content .details h4 {
-  padding: 5px 0px;
+  padding-bottom: 15px;
   text-transform: capitalize;
 }
 .card-section .allCards .card .content .details span a {
